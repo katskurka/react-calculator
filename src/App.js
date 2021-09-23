@@ -1,21 +1,14 @@
 import './App.css';
-import React, { useState } from 'react'
+import React from 'react'
 import Title from './components/title'
-import Operand from './components/operand'
-import Firstbox from './components/firstbox'
-import Secondbox from './components/secondbox'
-import Eval from './components/eval'
-import Resultbox from './components/resultbox'
+import Calculate from './components/calculate'
+
 
 function App() {
   return (
     <>
     <Title />
-    <Firstbox />
-    <Operand />
-    <Secondbox />
-    <Eval />
-    <Resultbox />
+    <Calculate />
     </>
   )
 }
